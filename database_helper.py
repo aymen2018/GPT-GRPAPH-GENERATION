@@ -21,7 +21,6 @@ class DatabaseHelper:
                 database=self.database,
             )
             if conn.is_connected():
-                print("Successfully connected to the database")
                 return conn
             else:
                 return None
@@ -46,7 +45,6 @@ class DatabaseHelper:
                 # Get column names for better formatting
                 column_names = [column[0] for column in cursor.description]
                 data = [dict(zip(column_names, row)) for row in result]
-                print(data)
                 return data
         except Error as e:
             print(f"Error while executing query: {e}")
@@ -54,4 +52,3 @@ class DatabaseHelper:
             if conn and conn.is_connected():
                 cursor.close()
                 conn.close()
-                print("MySQL connection is closed")

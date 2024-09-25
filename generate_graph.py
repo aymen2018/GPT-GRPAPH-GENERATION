@@ -29,6 +29,7 @@ class GenerateGraphLLM:
         if not query:
             query = sql_generator.generate_sql_query(self.user_input)
         response = self.generate_graph(query)
+        print("\n**************LLM GPT GRAPH ***************:\n")
         print(response)
 
     def generate_graph(self, query: str):
@@ -73,6 +74,9 @@ class GenerateGraphLLM:
 
 if __name__ == "__main__":
     user_input = "What percentage of registrations of each company?"
+    print("*********************************************************")
+    print("User Input:", user_input)
+    print("*********************************************************")
     generate_graph_llm = GenerateGraphLLM(user_input)
     query = """SELECT
         training.id AS training_id,

@@ -40,5 +40,6 @@ class generateSql:
         response = sql_chain.invoke({"question": user_question})
         # clean response
         sql_query = re.search(r"```sql\n(.*?)\n```", response, re.DOTALL)
+        print("\n*******************Query**********************:\n")
         print(sql_query.group(1).strip())
         return sql_query.group(1).strip()
