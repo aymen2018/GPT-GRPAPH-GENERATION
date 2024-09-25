@@ -1,0 +1,108 @@
+[
+    {
+        "training_id": 1,
+        "training_title": "Training_1_c_1",
+        "number_of_registrations": 5,
+    },
+    {
+        "training_id": 2,
+        "training_title": "Training_2_c_1",
+        "number_of_registrations": 4,
+    },
+    {
+        "training_id": 10,
+        "training_title": "Training_7_c_1",
+        "number_of_registrations": 4,
+    },
+    {"training_id": 3, "training_title": "Titre FR", "number_of_registrations": 3},
+    {
+        "training_id": 5,
+        "training_title": "Training_5_c_1",
+        "number_of_registrations": 2,
+    },
+    {
+        "training_id": 4,
+        "training_title": "Training_4_c_1",
+        "number_of_registrations": 2,
+    },
+    {
+        "training_id": 359,
+        "training_title": "Full feature course (French)",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 365,
+        "training_title": "Archive action with subscription training",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 368,
+        "training_title": "Delete action with subscription training",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 328,
+        "training_title": "To be corrected training",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 101,
+        "training_title": "Training-training-path-2_c_1",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 102,
+        "training_title": "Training-training-path-3_c_1",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 100,
+        "training_title": "Training-training-path-1_c_1",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 353,
+        "training_title": "Training Path course",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 75,
+        "training_title": "Test-Session-very-very-very-very-looooooooooooooong",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 74,
+        "training_title": "Test very very very very looooooooooooooong",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 362,
+        "training_title": "Pricy training in pound",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 189,
+        "training_title": "Training_deadline6_c_1",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 188,
+        "training_title": "Training_deadline5_c_1",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 187,
+        "training_title": "Training_deadline4_c_1",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 186,
+        "training_title": "Training_deadline3_c_1",
+        "number_of_registrations": 1,
+    },
+    {
+        "training_id": 185,
+        "training_title": "Training_deadline2_c_1",
+        "number_of_registrations": 1,
+    },
+]
